@@ -1,11 +1,15 @@
-JÁJA A PÁJA – OUTDOOR VERZE
+JÁJA A PÁJA – GALERIE V2
 
-Pro zveřejnění zdarma nahraj OBSAH složky jaja-paja na statický hosting (např. Netlify Drop nebo GitHub Pages). Potom otevři HTTPS odkaz v Safari a zvol Sdílet → Přidat na plochu.
+Novinky:
+- až 20 fotografií na výlet, výběr více fotografií současně
+- galerie posouváním prstem na kartě výletu
+- ukládání výletů a fotografií do IndexedDB namísto localStorage
+- automatické převzetí dosavadních výletů z localStorage při prvním spuštění
+- záloha a obnovení zahrnují všechny fotografie
 
-Nový design používá fotografii IMG_0851.jpeg dodanou v konverzaci jako úvodní fotku a ikonu.
-
-Původní záznamy se zachovají, pokud aktualizuješ soubory na stejné webové adrese a ve stejném prohlížeči; na nové doméně se nepřenesou automaticky. Před změnou si vytvoř zálohu.
-
-Import GPX funguje v aplikaci; samotný odkaz z Mapy.cz se ukládá pro otevření, ale trasu z odkazu automaticky nenačítá.
-
-Záznamy jsou v lokálním úložišti prohlížeče, nikoliv synchronizované mezi telefony. Pro mapy je potřeba internet.
+PŘED AKTUALIZACÍ: V běžící aplikaci klikni na Záloha a ulož JSON soubor.
+Na GitHub nahraj změněné index.html a sw.js do kořene stejného repozitáře.
+Po dokončení GitHub Pages otevři stejnou adresu jako dříve.
+Aplikaci nemaž, nevymazávej data Safari a neměň webovou adresu.
+Fotografie jsou uloženy lokálně na konkrétním zařízení, ne v GitHubu.
+Limity prostoru závisejí na iOS a dostupné paměti, 20 fotek není záruka kapacity.
